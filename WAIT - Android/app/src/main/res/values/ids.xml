@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Si no existe el archivo, créalo con este contenido -->
+    <item name="notificationContainer" type="id"/>
+</resources>

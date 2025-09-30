@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WAIT</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Location</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="register_prompt">¿No tienes cuenta? Regístrate</string>
+
+    <!-- Register Screen -->
+    <string name="register_title">Crear Cuenta</string>
+    <string name="username_hint">Nombre de usuario</string>
+    <string name="phone_hint">Número de teléfono</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="register_button">Registrarse</string>
+    <string name="login_prompt">¿Ya tienes cuenta? Inicia sesión</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_email">Correo electrónico inválido</string>
+    <string name="error_invalid_password">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_passwords_dont_match">Las contraseñas no coinciden</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="error_login_failed">Inicio de sesión fallido. Revisa tus credenciales.</string>
+    <string name="error_registration_failed">Registro fallido. Intenta nuevamente.</string>
+    <string name="error_network">Error de conexión. Revisa tu conexión a internet.</string>
+</resources>
