@@ -1,0 +1,48 @@
+[versions]
+agp = "8.8.0"
+gson = "2.10.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+constraintlayout = "2.1.4"
+lifecycleLivedataKtx = "2.8.7"
+lifecycleViewmodelKtx = "2.8.7"
+materialVersion = "1.8.0"
+navigationFragment = "2.6.0"
+navigationUi = "2.6.0"
+okhttp = "4.11.0"
+playServicesLocation = "21.3.0"
+playServicesMaps = "19.1.0"
+vertxAuthJwt = "4.x.x"
+vertxCore = "4.5.7"
+zxingAndroidEmbedded = "4.3.0"
+volley = "1.2.1"
+
+[libraries]
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+material-v180 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMaps" }
+vertx-auth-jwt = { module = "io.vertx:vertx-auth-jwt", version.ref = "vertxAuthJwt" }
+vertx-core = { module = "io.vertx:vertx-core", version.ref = "vertxCore" }
+vertx-web = { module = "io.vertx:vertx-web", version.ref = "vertxAuthJwt" }
+vertx-web-client = { module = "io.vertx:vertx-web-client", version.ref = "vertxCore" }
+zxing-android-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxingAndroidEmbedded" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
