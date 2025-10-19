@@ -32,7 +32,7 @@
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyD79FSIaTC291TdulBiG3P_kFeDV0iIpnQ" />
+            android:value="YourAPIKEY" />
 
         <activity
             android:name=".SplashActivity"
@@ -85,6 +85,7 @@
         </activity>
 
     </application>
+
 
 
 </manifest>
